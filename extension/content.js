@@ -37,7 +37,7 @@ async function handleSnatchClick() {
     const currentUrl = window.location.href;
 
     try {
-        const response = await fetch("http://127.0.0.1:8000/get-code", {
+        const response = await fetch("https://tube-code-backend.onrender.com", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ url: currentUrl })
