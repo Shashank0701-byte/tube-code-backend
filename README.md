@@ -46,30 +46,21 @@ uvicorn main:app --reload
 ```
 Install the Extension (The Eyes)
 Open Chrome and navigate to chrome://extensions.
-
 Enable Developer Mode (top right toggle).
-
 Click Load unpacked.
-
 Select the tube-code/extension directory from this repository.
 
-Usage
+###Usage:
 Ensure your local server is running (uvicorn main:app --reload).
-
 Open any YouTube coding tutorial.
-
 Click the green "Snatch Code" button next to the Share/Subscribe actions.
-
 Wait for the "Copied!" confirmation.
-
 Paste the clean code directly into your IDE.
 
-Roadmap
+###Roadmap:
 [ ] Support for package.json and requirements.txt extraction.
-
 [ ] Add support for C++, Java, and JavaScript syntax highlighting.
-
 [ ] User-configurable prompt engineering via UI settings.
 
-License
+###License
 Distributed under the MIT License. See LICENSE for more information.
